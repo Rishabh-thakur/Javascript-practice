@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,400&display=swap');
+body{
+    background-color: rgb(72, 67, 67);
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+.nav{
+    background-color: rgb(43, 69, 90);
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.notice{
+    box-sizing: border-box;
+    padding: 1rem 0;
+    
+}
+
+.notice span{
+    padding: 0 .3rem;
+    color: green;
+}
+
+.word{
+    padding: .5em 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+input{
+    padding: .3rem .5rem;
+    display: block;
+    width: 120%;
+}
+
+.timescore{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.instruction{
+    background-color: black;
+    width: 60%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+}
+
+.instruction p{
+    width: 80%;
+ margin: 0 auto;
+ padding: .5rem 0 2rem;
+}
+
+
+.message{
+    display: none;
+}
+
+.show-message{
+    display: block;
+    padding: 1.1rem;
+}
